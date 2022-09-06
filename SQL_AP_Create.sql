@@ -1,14 +1,4 @@
-/* *************************************************************
-   This script only creates the AP (Accounts Payable) database
-   for Murach's MySQL by Joel Murach 
-   ************************************************************* */
 
-/* create the database */
-DROP DATABASE IF EXISTS ap;
-CREATE DATABASE ap;
-
-/* select the database */
-USE ap;
 
 /* create the tables */
 CREATE TABLE general_ledger_accounts
